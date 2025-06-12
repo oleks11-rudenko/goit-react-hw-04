@@ -1,0 +1,17 @@
+.image {
+  width: 100%;
+  min-height: 300px;
+  max-height: 300px;
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.description {
+  padding: 6px 0;
+  background-color: #ffffff5b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}

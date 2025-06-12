@@ -1,0 +1,22 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 18px;
+  row-gap: 36px;
+  width: 1572px;
+  height: 100%;
+}
+
+.item {
+  width: calc((100% - 72px) / 5);
+  width: 300px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: scale(1);
+  transition: transform 150ms linear;
+}
+
+.item:hover {
+  transform: scale(1.02);
+}
